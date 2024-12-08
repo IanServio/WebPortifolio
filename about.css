@@ -1,0 +1,11 @@
+#about{
+    background-color: rgb(11, 8, 14);
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
+#card-about-me{
+    display: flex;
+    gap: 50px;
+}

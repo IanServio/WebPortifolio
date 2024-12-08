@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/about.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Ian.Dev</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#home" id="name_logo"><i class="fa-solid fa-mug-hot"></i> IanDev</a>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                    <li class="nav-item">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <span>Hello, there👋</span>
+                <h1 id="title">
+                    Eu sou Ian Servio,<br>
+                    <span id="type_dev">Frontend Dev.</span>
+                </h1>
+                <h2 id="title">From in Brazil</h2>
+                <p id="descricao">Ian Servio, um Estudante de ADS (Analise e Desenvolvimento de Sistemas) e um futuro Desenvolvedor de aplicacoes web</p>
+                <a href="http://github.com/IanServio" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                <a href="http://www.linkedin.com/in/ian-s%C3%A9rvio/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+            </div>
+            <div id="banner">
+                <img src="src/images/Ian_SERVIO-removebg-preview.png" alt="">
+            </div>
+        </section>
+        <section id="about">
+            <div id="card-about-me">
+                <span>
+                    <p>Um pouco.</p>
+                    <h1>Sobre Mim</h1>
+                </span>
+                <p>Olá, meu nome é Ian, e sou um desenvolvedor front-end. 
+                Tenho experiência em criar experiências de usuário ricas e intuitivas usando <strong>HTML, CSS, JavaScript e React.</strong> 
+                Possuo habilidades de design, além de técnicas de codificação.</p>
+            </div>
+        </section>
+    </main>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
